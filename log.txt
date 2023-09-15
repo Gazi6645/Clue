@@ -1,0 +1,551 @@
+<<<<<<< HEAD
+commit 1cde3936e1920a29bee76aa408676255dacb1c71
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Apr 19 23:37:10 2023 -0600
+
+    C25A: reOrganized Game Control Panel so embeded panel's are easy to understand. Changed how roll textField is set up so it looks similar to how it is shown in example assignment. Renaming varible to more accruatley reflect task
+
+commit 195fc4ca387105c56e8b8ed55ea394fd471fd0f3
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Apr 19 23:30:18 2023 -0600
+
+    C25A: rewrote paintTargetCells(g) in Board(line starting 672) in order to avoid potential of infinte loop
+
+commit fdf5ae33cc899417f7db275e3fafdef694c988bc
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Apr 19 23:20:38 2023 -0600
+
+    C25A: deleting print statements that were used for debugging
+
+commit a61671f966dcfe6d7f369d0957d238a994776feb
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Apr 19 20:34:45 2023 -0600
+
+    C24A final review
+
+=======
+>>>>>>> 0412094c8548c0dba56581f9e688ca45545e217b
+commit 64ad53732926012eff11bd437ef7c3af8a05b2a7
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Wed Apr 19 15:26:30 2023 -0600
+
+    refactored controll panel making it more descriptive and removed unused code from clue game, also properly seeded rng engine.
+
+commit ac251e55e8308751d1dd467c862014cbb8ba3950
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Wed Apr 19 14:56:42 2023 -0600
+
+    fixed suggestion test, since hand no longer auto adds to known due to gui it had to be fixed.
+
+commit 40e79b4f64fc11715784d54a9541ee8b556c70d9
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Tue Apr 18 16:33:07 2023 -0600
+
+    C24A finished logic to highlight tiles, and move both players and computers, logic ready for adding in suggestion and accusations. Final thing needed is to repair the accustation tests as they seem to have broken.
+
+commit e24b833405f476743de21d60f72689ae9bb97b2a
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Mon Apr 17 13:53:31 2023 -0600
+
+    began work on getting targets to display properly
+
+commit bb2e96311fa5fdb6fcae76dbe2b1bed464b94a12
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Mon Apr 17 12:58:54 2023 -0600
+
+    added basic functionallity to button and board, need to implement functions.
+
+commit bc802e7791683c23713dbb4f4ab227196699a2f3
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Wed Apr 12 13:27:16 2023 -0600
+
+    finised adding all graphical componets to board, created finished window for game C23A
+
+commit e6e1a8516301078d8d28e2885f08c71bf0bc19d4
+Merge: 7966db5 7669be0
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Apr 12 11:22:36 2023 -0600
+
+    merge
+
+commit 7966db5d0cff99cdc59425f5b5ba8bf57414b02d
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Apr 12 11:21:13 2023 -0600
+
+    C23A
+
+commit 7669be0dd5bd12cc83429f5e8aea72d4f6827049
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Wed Apr 12 01:23:53 2023 -0600
+
+    C23A designed and developed draw for board, cell, player, and room missing clueGame class for testing, need to fix. Otherwise should be good
+
+commit 58c458d6af5c51378eda1666d6ef34cb41b4b7f3
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Tue Apr 11 13:19:07 2023 -0600
+
+    C23A: creating ClueGame class and extending Jpanel for board
+
+commit 578385545644a762034622ecb0ddf725b2c8aa02
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Mon Apr 10 17:36:18 2023 -0600
+
+    finished work on card gui
+
+commit 202a44f8018d8c7418d7f567a768cd156154824b
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Mon Apr 10 15:57:05 2023 -0600
+
+    finished work on card GUI, colors not added but can be if desired. Equal work done by Connor and Gazi
+
+commit 6198e5010eddc240c61365f6a0cec7b472930f05
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Apr 10 13:43:40 2023 -0600
+
+    C22A-1: Set methods implemented
+
+commit 5dcbd74f10476f30649296a46b1975ceb87edfd7
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Apr 10 13:11:42 2023 -0600
+
+    C22A-1: Panel format fixed
+
+commit 01e0cf7b7fa38c28ae8984a34687bcdc2b4ef285
+Merge: d0d39ef 284daa3
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Fri Apr 7 21:11:31 2023 -0600
+
+    Merge branch 'main' of github.com:ConnorJ666/ClueProject
+
+commit d0d39ef92feffec4de44a79f28a215b323016002
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Fri Apr 7 21:05:45 2023 -0600
+
+    C21A final test review and commenting
+
+commit 24df60263dbf148774e8d16bbd99bf1a580475e1
+Author: Gazi Morshed <gmdiftakhermorshed@mines.edu>
+Date:   Thu Apr 6 14:35:34 2023 -0600
+
+    C21A finsihed tests for ai both I and Gazi worked an equal amount on this
+
+commit 284daa3c8eb980640c4f6d18d4413d262923e9a1
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Thu Apr 6 14:35:34 2023 -0600
+
+    C21A finsihed tests for ai both I and Gazi worked an equal amount on this
+
+commit 77e37930c95f78d0e9a43b2836bc04a68464e542
+Merge: d89f534 00e0954
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Thu Apr 6 12:37:56 2023 -0600
+
+    resolved merge confict in card test and ensured card dealing didnt error if no players are present.
+
+commit d89f5349854c975619c0ad542971e89056829402
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Wed Apr 5 22:01:00 2023 -0600
+
+    finshed tests for creating suggestions and began work on computer players
+
+commit 00e0954b1a2dd39cfbc8fe9d4738e5a86d29743d
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Apr 5 20:46:31 2023 -0600
+
+    fixed equals
+
+commit be14ca2e96db07e6be8625669d0b789efd7e8656
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Wed Apr 5 13:49:57 2023 -0600
+
+    started prep for comp move tests also made changes to == of card
+
+commit e797bcc3c4d2dc97c446aeccc0821efbf4258fd8
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Wed Apr 5 13:36:48 2023 -0600
+
+    need to fix card comparison
+
+commit 352ec9ba8c02ad05c91f079d12e13f3abf8313ef
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Wed Apr 5 13:06:56 2023 -0600
+
+    C21A got tests for accusations and started tests for dispoving theories, also got these tests functioning
+
+commit ddc30a6ab31e2c0f20342d547358cabdda2d3efa
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Tue Apr 4 13:36:28 2023 -0600
+
+    C21A started work on accusations and testing if they work, are now refactoring how deck and solution work as a set seems to be a poor choice.
+
+commit b992c986cd573c4b20250e7c0e9e8790a3747639
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Fri Mar 31 13:48:19 2023 -0600
+
+    C20A (sorry for earlier commits not having C20A infront, it simply slipped my mind) created dealing function to give each player 3 cards and the solution 3 cards, added test to ensure all players get same number of cards and added test to ensure solution has 3 cards, 1 of each type
+
+commit 2aa7cdff3e4d0b0ab9f1fdb3ebf5ef39c9555d79
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Fri Mar 31 13:08:05 2023 -0600
+
+    created test to ensure cards are created properly, once done with that added logic to generate remaining cards and to shuffle deck. Am now working on dealing function.
+
+commit c95e49cb7d8c8223d5aa6e178f1a2ebd2ea0e04d
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Thu Mar 30 13:40:16 2023 -0600
+
+    changed sets to hold either humans or computers such that we can loop through only one to ensure turn taking is easier. We also got number of player types test to function
+
+commit 957dfcf63c8b4c9726325839888e120539c2b6b3
+Author: Connor Johnson (STUDENT) <cjohnson2@mines.edu>
+Date:   Thu Mar 30 13:35:33 2023 -0600
+
+    C20A created tests to check that right number of players are generated and that the right number of humans and machines are generated. the number of player test passes and the number of each subtype of player test fails
+
+commit d48bfdd331616931e0a1972b83fab13498adbedf
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Mar 29 23:50:08 2023 -0600
+
+    C19A-2: Added more comments to clarify methods and implementation
+
+commit eeac8c10763a00f4b14d7455cc973fb78acef2fc
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Mar 29 23:44:21 2023 -0600
+
+    C19A-2 Extracting a method to reset the list's to make sure the list does not contain element from previous iteration using the list
+
+commit e2ec4b5d1a74ac3a36f9aeb5b3b0ee460b4a7b51
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Mar 29 23:34:28 2023 -0600
+
+    C19A-2 Extracting Local varible for reading in special characters
+
+commit 25bd3e6f895a92c4249c8e52f3db122c55e0b745
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Mar 29 23:27:48 2023 -0600
+
+    C19A-2 deleting unncessary print statement
+
+commit 73f832ba527ebe283420365c36efbe0e61128035
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Mar 29 23:19:10 2023 -0600
+
+    C19A-2 creating a variable for char of cell in setAdjs
+
+commit c1c23627381cbfd4eb1d0c7c03950052fa76eee0
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Tue Mar 28 13:23:02 2023 -0600
+
+    C19 A-2: chagned adjacency code to be a method that will resue the code
+
+commit f94618a1a96211a757e5499255942f7e1ea0bf27
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Tue Mar 28 13:11:02 2023 -0600
+
+    once again fixed the is and js problem am prepping to turn reusded code into methods that can be called internally
+
+commit 87e6c1ab9c7cbba7c52b69ddb0283bb3099f19ff
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Tue Mar 28 12:59:22 2023 -0600
+
+    C19A-2 Changed i to row and j for column to make them meaningfull
+
+commit 0307d21a5e5e1866baab7515798304f95e285bf0
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Mon Mar 13 13:05:16 2023 -0600
+
+    fixed tests and made sure the push sticks this time
+
+commit 07ebe5ccf76692e5a8323598a9031e8028ae78be
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Sun Mar 12 19:23:02 2023 -0600
+
+    found tests to be suspect causing error, changed locations and got sucesses. The test that found no adjs was targeting a non center room cell and test door had some typos that were fixed
+
+commit ccde3d2601783320fe2f4724157a07189dc26bc8
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Fri Mar 10 13:55:41 2023 -0700
+
+    almost got find targets working
+
+commit 9e3e32ddecf4a49788a8d1d9abaf90979ebdee8e
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Wed Mar 8 14:00:12 2023 -0700
+
+    got adj working and began work on target aquisition
+
+commit c8ddc5c6ac623283e38f26093e6eef720f3bd505
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Tue Mar 7 13:42:37 2023 -0700
+
+    began implementation of adj finding
+
+commit 76d2a79cad979d235d7e2e42c0800d9892267e66
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Tue Mar 7 13:14:57 2023 -0700
+
+    finalized target testing for completed board
+
+commit 35dca124e1e7200ea27ef42041be2fdd0d4bbffb
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Mar 6 23:48:15 2023 -0700
+
+    Test added
+
+commit 29336d13dfd31ebf357378a643c6b593658cfc3a
+Merge: 7924631 534b2b2
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Mar 6 22:26:37 2023 -0700
+
+    merge
+
+commit 534b2b2c6ebb1705ddcfc5179b9f6ad7c3e37201
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Mon Mar 6 17:26:04 2023 -0700
+
+    began work on board target tests
+
+commit 5e6a3e8195a1a8fcff2ba1dfbd86dfad8c37c5cc
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Mon Mar 6 13:48:58 2023 -0700
+
+    added test.txt file
+
+commit 7924631d0298e1284c606a8e12b03bae3d5765aa
+Merge: 98d3053 5e79dcc
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Mar 6 13:43:32 2023 -0700
+
+    merge
+
+commit 98d3053be3685de95873cca0c392d0c53b9ae637
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Mar 6 13:42:11 2023 -0700
+
+    deleting files
+
+commit 4e1178e49fe1af4ca3c96f8a9ad8ee2ac52cfb60
+Merge: 1d71785 4d7fe96
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Mar 6 13:41:29 2023 -0700
+
+    merge
+
+commit 5e79dcc92b0aa5d1284ebe709bc51d08c9fb76aa
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Mon Mar 6 13:39:39 2023 -0700
+
+    final version for clue init 2
+
+commit 1d71785109833416ee5a17bd260a4eba0baa6ff7
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Mar 6 13:12:57 2023 -0700
+
+    commiting personalized test files
+
+commit 4d7fe96b31a87f4817bb7228087a79d8eb758e22
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Mon Mar 6 13:09:29 2023 -0700
+
+    made changes to excpetion to be closer to expected
+
+commit a90c07134bff2bac24873dba8f63bba09496d3fb
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Sun Mar 5 18:59:10 2023 -0700
+
+    all tests are working, tomorrow I will explain the code, any edits needed will be made and we can work on the new tests needed
+
+commit 09f9e49d760f6de1e64e1f15e8dcb97b0c159b17
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Sun Mar 5 01:20:47 2023 -0700
+
+    Got room test working, thus secret passages as well as room label cells and center cells are now funtional, the code does need to be commented but its 1 am rn and im riding high on dopamine so give me this. All that is left is door code, thus we will have to edit the cell generator some more to add checks for >,<,^,and whatever symbol a down door uses, v mayhaps?
+
+commit 0ef3fc37b17f11a5e133a7a245aa977b12c175b2
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Sat Mar 4 17:24:08 2023 -0700
+
+    implemented code to define rooms, will work on getting important room cells later
+
+commit 70c06fc9f46dc4d0bac7776f5876efe29341e025
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Fri Mar 3 23:53:24 2023 -0700
+
+    14A-2 commit
+
+commit f6db657a076f61ac0a7117d7c715a7dd848ffe5e
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Fri Mar 3 15:46:33 2023 -0700
+
+    set up functions to figure out board dimensions and began work on room set up
+
+commit e20fc7a23eacc5dc6f39b17bdab0e095dd0260bd
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Fri Mar 3 12:30:34 2023 -0700
+
+    imported data files
+
+commit dc9ca83595f4a9fa8afa10077e31dede9d5344d8
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Thu Mar 2 16:55:18 2023 -0700
+
+    C14A-2
+
+commit b6995f9e698619a57dfc92e8b2afad4921cba578
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Thu Mar 2 16:55:10 2023 -0700
+
+    C14A-2
+
+commit 28f180573c2a759b93a1813da183a959ac1d9285
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Thu Mar 2 14:33:52 2023 -0700
+
+    implemented target finding code, done in pair programming by connor and gazi
+
+commit 907a4608867f55727c4f59b9161655c9d6201829
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Thu Mar 2 13:11:31 2023 -0700
+
+    saved
+
+commit 700093c69461641650f234ad629294458ebdbd3e
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Thu Mar 2 12:38:10 2023 -0700
+
+    merge commit
+
+commit 02840baea52113e4e38534fb1fbdcb14f22fcdc2
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Mar 1 13:47:22 2023 -0700
+
+    deleting
+
+commit d1cb134c605a24b5a0ad73e5a629eeb1311d1247
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Mar 1 13:30:23 2023 -0700
+
+    deleting width and height
+
+commit 4f95c1e20e8cefc80c10603c3e2896c7e5cf229b
+Merge: e851db7 3ace5d7
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Wed Mar 1 12:31:51 2023 -0700
+
+    merging conflicts
+
+commit 3ace5d76dc8fbda4a0df01cb1c4e504bab3391cf
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Wed Mar 1 02:18:48 2023 -0700
+
+    added code to find the adjacency list and started work on target finding.
+
+commit e851db7b2a58c0687a711a5de22e28d07ca71c8d
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Tue Feb 28 20:23:42 2023 -0700
+
+    Final change
+
+commit 89f5fcdad17a60fe5a3680714cc62bfea1427105
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Tue Feb 28 16:37:50 2023 -0700
+
+    continued implementing test board stuff
+
+commit 9059a3dd26a2c6cb5881fb4a8a5f5986fe2fadec
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Tue Feb 28 13:46:11 2023 -0700
+
+    fixed tests and added code to begin adj aquisition
+
+commit 567a29bcda18bf8abc5908e517b5ff09673cb428
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Mon Feb 27 22:23:26 2023 -0700
+
+    created log file
+
+commit ee8aa0cb66da1939c345bad0a4af3e4c5d8260cb
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Feb 27 21:54:16 2023 -0700
+
+    Last commit
+
+commit ee1a8a05cfaabd52502a0e956ac213228f6b6157
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Feb 27 21:51:25 2023 -0700
+
+    Finish all commenting and fixing problems
+
+commit 65f86f9ba7362ce502b85309ed6e055e6e03ba1e
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Feb 27 21:07:28 2023 -0700
+
+    testTarget() and testTargetsadv comment
+
+commit f90a3ab8e3b58d983e7c1f90e21f9eaafb6598e8
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Feb 27 20:41:35 2023 -0700
+
+    testAdjacency11() comment
+
+commit 0aa946f28cda4390ecd6887be8a1f974ac3c58d6
+Author: Gazi M. and Annie H <gmdiftakhermorshed@mines.edu>
+Date:   Mon Feb 27 20:39:00 2023 -0700
+
+    Adjacency spelling correction and testAdjacency00() comment
+
+commit 572faa2bd2962f17324c3b789bf030eb8b95db84
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Sun Feb 26 15:46:46 2023 -0700
+
+    ensured that testTargetAdv actually is a test
+
+commit d99ec63629bbbcb6199fad025d2983076fd4e267
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Sun Feb 26 15:44:00 2023 -0700
+
+    actually implemented tests and stubs needed
+
+commit 3fa924bac90fd163c901ef43d8b5bd378012ec0e
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Sun Feb 26 15:40:39 2023 -0700
+
+    Implemented tests for adjacency and target location
+
+commit 7682ee3b04d6829cc1cc6cb711e472d9d4effe64
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Thu Feb 23 13:43:24 2023 -0700
+
+    ready for code bodys for tests
+
+commit 15502afb86ef87b57858d6c6378ff9cfe7a8838c
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Thu Feb 23 13:39:41 2023 -0700
+
+    test file
+
+commit dd9b9b54bb4d9165694e62130a34a86e58c23b9d
+Merge: dc0405e 9e6bf75
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Thu Feb 23 13:34:48 2023 -0700
+
+    Merge branch 'main' of https://github.com/ConnorJ666/ClueProject
+    intial commis
+
+commit dc0405e9abac86aa420b6e2abec96e3edf142775
+Author: Connor Johnson <cjohnson2@mines.edu>
+Date:   Thu Feb 23 13:26:46 2023 -0700
+
+    initial commit
+
+commit 9e6bf75ecdc09386ccd8da153bba0b7b565c96d5
+Author: Connor Johnson <123442886+ConnorJ666@users.noreply.github.com>
+Date:   Thu Feb 23 13:03:24 2023 -0700
+
+    Update .gitignore
+
+commit 0d200d6c5f24ff73275b73b64622f3b28686a12e
+Author: Connor Johnson <123442886+ConnorJ666@users.noreply.github.com>
+Date:   Thu Feb 23 13:02:47 2023 -0700
+
+    Initial commit

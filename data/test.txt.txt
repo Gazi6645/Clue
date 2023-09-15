@@ -1,0 +1,6 @@
+(1) setUp() tests that layout and setup files are loaded correctly
+(2) testRoomLabels() test's the room name and initial
+(3) testBoardDimensions() ensure the correct number of rows/columns have been read
+(4) FourDoorDirections() verify at least one doorway in each direction.
+(5) testNumberOfDoorways() check that the correct number of doors have been loaded.
+(6) testRooms() check that rooms have the proper center cell and label cell and ensure they have the correct initial.

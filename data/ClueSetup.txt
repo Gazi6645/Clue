@@ -1,0 +1,28 @@
+// Room and room cards 
+Room, Bathroom, B 
+Room, Foyer, F 
+Room, Master Bedroom, M 
+Room, Laundry Room, L 
+Room, Guest Room, G 
+Room, Home Office, H 
+Room, Kids Bedroom, K 
+Room, Playroom, P 
+Room, Theater, T 
+//other space on board 
+Space, Unused, X 
+Space, Walkway, W 
+// players go here
+Player, Human, Frank, Green, 0, 2
+Player, Computer, Bill, Yellow, 19, 2
+Player, Computer, Adam, Purple, 19, 7
+Player, Computer, Carter, Green, 19, 11
+Player, Computer, Dave, Red, 0, 6
+Player, Computer, Elon, Orange, 0, 12
+// set up cards here
+Card, Weapon, Gun
+Card, Weapon, Sword
+Card, Weapon, Brick
+Card, Weapon, Car
+Card, Weapon, Tank
+Card, Weapon, Submarine
+//end (probably)
